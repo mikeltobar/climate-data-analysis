@@ -11,6 +11,10 @@ In this quick project, I have analyzed some climate change data using shell. I h
 
 The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data), and it is owned by Berkeley Earth. Its license is CC BY-NC-SA 4.0. This is an interesting dataset which gives tons of relevant information on climate change. 
 
+## The analysis
+
+The original GlobalTemperatures.csv data can be found in the data folder, as well as the modified csv data file. The analysis results can be found in the main repository, named as output.txt. The rest of the files are intermediate scripts.
+
 ## Conclusions
 
 The output folder contains all the outputs given for the different methods used. 
