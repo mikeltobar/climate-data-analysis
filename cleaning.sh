@@ -10,7 +10,7 @@ head -n 10 GlobalTemperatures.csv
 
 # Regex for date formatting, NA, decimals and first line management. Creation of new file.
 
-sed 's/\([0-9][0-9][0-9][0-9]\)-\([0-9][0-9]\)-[0-9][0-9]/\1\,\2/g' GlobalTemperatures.csv |
+sed 's/\([0-9]{4}\)-\([0-9]{2}\)-[0-9]{2}/\1\,\2/g' GlobalTemperatures.csv |
 sed 's/\(.*,.*.,.*\),.*,.*,.*,.*,.*,.*/\1/g' |
 sed 's/,,/,NA,NA/g' |
 sed 's/\(^.*,-*[0-9]*\.[0-9]\)\([0-9]*\)\(,[0-9]*\.[0-9]\)\([0-9]*\)/\1\3/g' |
