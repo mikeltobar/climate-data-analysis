@@ -1,6 +1,6 @@
 # Global temperatures analysis
 
-![Climate change](https://cdn.pixabay.com/photo/2020/01/27/10/24/pollution-4796858_1280.jpg)
+![pollution-ge479fe112_1920](https://user-images.githubusercontent.com/81832365/215517809-6fe64560-e1a8-4b55-820b-d1d80bcbba2a.jpg)
 
 
 ## Intro
