@@ -5,11 +5,11 @@
 
 ## Intro
 
-In this project, some climate change data is analyzed using shell. Unix-specific languages such as awk or sed are used to do the needed cleaning and the calculations.
+In this project, some climate change data is analyzed using shell. Unix-specific languages such as awk or sed are used to do the needed cleaning and the calculations [1].
 
 ## Data
 
-The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data), and it is owned by Berkeley Earth. Its license is CC BY-NC-SA 4.0. This is an very interesting dataset with tons of relevant information on the evolution of climate during the last 250 years (with some of the most recent years not included yet in it). 
+The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data) [2], and it is owned by Berkeley Earth. Its license is CC BY-NC-SA 4.0. This is an very interesting dataset with tons of relevant information on the evolution of climate during the last 250 years (with some of the most recent years not included yet in it). 
 
 The data has a monthly granularity, something that will be exploited in this analysis. It is convenient to compare how monthly means have fluctuated from the past to almost now, see where temperatures are heading, analyze the average values per month and variation per decade. Measurements are given in Celsius degrees.
 
@@ -129,3 +129,9 @@ This analysis can be an example on how Shell can be an interesting tool for a qu
 ## Other
 
 Please note that since this work only aimed at developing some tasks that would normally be done in pandas or R, a very deep analysis can’t be found here. This is only an exploration of the potential of Shell tools for a quick analysis.
+
+## Bibliography
+
+[1] The GNU Awk User’s Guide [online] [accessed: 6 June 2021]. Available at: https://www.gnu.org/software/gawk/manual/gawk.html
+
+[2] Climate Change: Earth Surface Temperature Data [online] [accessed: 6 June 2021]. Available at: https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?select=GlobalTemperatures.csv
