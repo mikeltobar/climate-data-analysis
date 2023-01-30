@@ -17,32 +17,35 @@ The original GlobalTemperatures.csv data can be found in the data folder, as wel
 Year-to-year mean temperature study
 ______________________
  
-Decade  1 | Mean temperature  6,49306 | Change  6,49306
-Decade  2 | Mean temperature  6,1875 | Change  -0,305556
-Decade  3 | Mean temperature  6,73611 | Change  0,548611
-Decade  4 | Mean temperature  6,25 | Change  -0,486111
-Decade  5 | Mean temperature  6,65278 | Change  0,402778
-Decade  6 | Mean temperature  6,11806 | Change  -0,534722
-Decade  7 | Mean temperature  5,90972 | Change  -0,208333
-Decade  8 | Mean temperature  6,35417 | Change  0,444444
-Decade  9 | Mean temperature  6,02083 | Change  -0,333333
-Decade  10 | Mean temperature  6,27778 | Change  0,256944
-Decade  11 | Mean temperature  6,21528 | Change  -0,0625
-Decade  12 | Mean temperature  6,44444 | Change  0,229167
-Decade  13 | Mean temperature  6,52778 | Change  0,0833333
-Decade  14 | Mean temperature  6,22917 | Change  -0,298611
-Decade  15 | Mean temperature  6,48611 | Change  0,256944
-Decade  16 | Mean temperature  6,40972 | Change  -0,0763889
-Decade  17 | Mean temperature  6,5625 | Change  0,152778
-Decade  18 | Mean temperature  6,74306 | Change  0,180556
-Decade  19 | Mean temperature  6,79861 | Change  0,0555556
-Decade  20 | Mean temperature  6,875 | Change  0,0763889
-Decade  21 | Mean temperature  6,80556 | Change  -0,0694444
-Decade  22 | Mean temperature  6,77083 | Change  -0,0347222
-Decade  23 | Mean temperature  6,875 | Change  0,104167
-Decade  24 | Mean temperature  7 | Change  0,125
-Decade  25 | Mean temperature  7,27778 | Change  0,277778
-Decade  26 | Mean temperature  7,58333 | Change  0,305556
+
+| Decade | Mean temperature | Change       |
+| ------ | ---------------- | ------------ |
+| 1      | 6,49306          | 6,49306      |
+| 2      | 6,1875           | -0,305556    |
+| 3      | 6,73611          | 0,548611     |
+| 4      | 6,25             | -0,486111    |
+| 5      | 6,65278          | 0,402778     |
+| 6      | 6,11806          | -0,534722    |
+| 7      | 5,90972          | -0,208333    |
+| 8      | 6,35417          | 0,444444     |
+| 9      | 6,02083          | -0,333333    |
+| 10     | 6,27778          | 0,256944     |
+| 11     | 6,21528          | -0,0625      |
+| 12     | 6,44444          | 0,229167     |
+| 13     | 6,52778          | 0,0833333    |
+| 14     | 6,22917          | -0,298611    |
+| 15     | 6,48611          | 0,256944     |
+| 16     | 6,40972          | -0,0763889   |
+| 17     | 6,5625           | 0,152778     |
+| 18     | 6,74306          | 0,180556     |
+| 19     | 6,79861          | 0,0555556    |
+| 20     | 6,875            | 0,0763889    |
+| 21     | 6,80556          | -0,0694444   |
+| 22     | 6,77083          | -0,0347222   |
+| 23     | 6,875            | 0,104167     |
+| 24     | 7                | 0,125        |
+| 25     | 7,27778          | 0,277778     |
+| 26     | 7,58333          | 0,305556     |
  
 __________________________
  
