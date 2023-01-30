@@ -5,11 +5,26 @@
 
 ## Intro
 
-In this quick project, I have analyzed some climate change data using shell. I have used some simple programs, including awk or sed to do the needed cleaning and the calculations.
+In this project, some climate change data is analyzed using shell. Unix-specific languages such as awk or sed are used to do the needed cleaning and the calculations.
 
 ## Data
 
-The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data), and it is owned by Berkeley Earth. Its license is CC BY-NC-SA 4.0. This is an interesting dataset which gives tons of relevant information on climate change. 
+The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data), and it is owned by Berkeley Earth. Its license is CC BY-NC-SA 4.0. This is an very interesting dataset with tons of relevant information on the evolution of climate during the last 250 years (with some of the most recent years not included yet in it). 
+
+The data has a monthly granularity, something that will be exploited in this analysis. It is convenient to compare how monthly means have fluctuated from the past to almost now, see where temperatures are heading, analyze the average values per month and variation per decade. Measurements are given in Celsius degrees.
+
+It is important to note that older values are subject to a higher degree of uncertainty than newer ones, due do the unavailability of highly accurate measurement tools. 
+
+## Methodology
+
+The work is a series of 4 scripts, with an additional one executing them.
+
+1. A basic preprocessing and a formatting are performed with the *cleaner.sh* script.
+2. The data is scanned with the *eda.sh* script, to see how much information is missing and if it's fit to be analyzed with further scrutiny.
+3. After validating the dataset, *analysis_1.awk* checks the temperature comparing each year's mean and obtaining the general trend (upwards or downwards).
+4. The *analysis_2.awk* script compares the monthly averages, checks which years have had the highest values, classifies the months in 5-degree intervals, and gets the hottest ever months. It outputs the results.txt file with its corresponding tables.
+
+All these scripts are coordinated and ran by *run.sh*, that executes them in the order above described. 
 
 ## Results
 
@@ -87,7 +102,7 @@ The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climat
 |    12 |          2 | 253 |    8 |     0 |     0 |
  
 
-### Analysis of months with higher temperatures
+### Analysis of months with higher temperatures (with error of less than 0.5)
 
  
 |  Year | Month | MeanTemperature | Error |
@@ -105,10 +120,12 @@ The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climat
 
 ## Conclusions
 
-The output folder contains all the outputs given for the different methods used. 
-We see how, in general, the series used is complete from 1753. A decade-to-decade study gives the chilling perspective of a mean increase of 0.8º C the last 4 decades. However, we should consider some measuring error. 
+We see how, in general, the series used is complete from 1753. A decade-to-decade study says temperatures are increasing with a slope of 0.8 (per 10 years). However, some measuring error should be considered for the initial values. The mean increase is more evident during the last 4 decades, with a cumulative hike of about 0.8 Celsius degrees.
+
+Globally, the hottest months are those coinciding with the Northern's Hemisphere summer, and July can be considered the hottest month. The top 10 of hottest measurements are all in July, and concentrated in the last 30 years.
+
 This analysis can be an example on how Shell can be an interesting tool for a quick processing of csv files.
 
 ## Other
 
-Please note that since this work only aimed at developing some tasks that would normally be done in pandas or R, a very deep analysis can’t be found here. This is only an exploration of the potential of shell tools for a quick analysis.
+Please note that since this work only aimed at developing some tasks that would normally be done in pandas or R, a very deep analysis can’t be found here. This is only an exploration of the potential of Shell tools for a quick analysis.
