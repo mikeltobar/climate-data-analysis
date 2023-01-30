@@ -42,15 +42,15 @@ The dataset used is available [here](https://www.kaggle.com/berkeleyearth/climat
 | 22     | 6.77083          | -0.0347222   |
 | 23     | 6.875            | 0.104167     |
 | 24     | 7                | 0.125        |
-| 25     | 7,27778          | 0.277778     |
-| 26     | 7,58333          | 0.305556     |
+| 25     | 7.27778          | 0.277778     |
+| 26     | 7.58333          | 0.305556     |
  
 ### Year-to-year mean increase/decrease
  
 + Years where mean increased: 124 , mean increase: 0.00203803
 + Years where mean decreased: 102 , mean decrease: -0.00245948
 + Years without mean change: 37
-+ Increase ratio: 0.828644
++ Increase slope: 0.828644
  
 ### Month-to-month Mean temperature and error analysis, along with year of maximum temperature for each month
  
